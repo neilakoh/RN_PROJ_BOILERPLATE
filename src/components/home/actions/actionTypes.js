@@ -1,0 +1,1 @@
+export const HOME_ACTION_TYPE = 'HOME_ACTION_TYPE';
