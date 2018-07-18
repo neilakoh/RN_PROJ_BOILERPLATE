@@ -7,15 +7,16 @@
     "test": "jest"
   },
   "dependencies": {
+    "most": "^1.7.3",
     "react": "16.4.1",
     "react-native": "0.56.0",
     "react-navigation": "^2.6.2",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-actions": "^2.4.0",
-    "redux-observable": "^0.18.0",
+    "redux-observable": "^1.0.0",
     "redux-thunk": "^2.3.0",
-    "rxjs": "^5.5.6"
+    "rxjs": "^6.2.2"
   },
   "devDependencies": {
     "babel-jest": "23.4.0",

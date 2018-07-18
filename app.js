@@ -9,9 +9,9 @@ import RootReducer from './src/rootReducers';
 import RootRouter from './src/router/index';
 import { rootEpic } from './src/rootEpic';
 
-const epicMiddleware = createEpicMiddleware(rootEpic);
+const epicMiddleware = createEpicMiddleware();
 const store = createStore(RootReducer, applyMiddleware(thunk, epicMiddleware));
-// epicMiddleware.run(rootEpic);
+epicMiddleware.run(rootEpic);
 
 export default class App extends Component<Props> {
   render() {
