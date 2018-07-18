@@ -13,9 +13,9 @@
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-actions": "^2.4.0",
-    "redux-observable": "^1.0.0",
+    "redux-observable": "^0.18.0",
     "redux-thunk": "^2.3.0",
-    "rxjs": "^6.2.2"
+    "rxjs": "^5.5.6"
   },
   "devDependencies": {
     "babel-jest": "23.4.0",
